@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/header/header'
 import Home from './pages/home/home';
 import AllSongs from './pages/allSongs/AllSongs';
-import AllGenres from './pages/allGenres/allGenres';
+import AllGenres from './pages/allGenres/AllGenres';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {

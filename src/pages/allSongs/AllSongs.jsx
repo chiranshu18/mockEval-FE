@@ -19,13 +19,10 @@ const AllSongs = () => {
       setSongData(response.data)
     })
     .catch((e) => {
-      console.log(e)
-      console.log(e.message)
       setError(e.message)
     });
   }, []);
 
-  console.log(songData)
   if(error){
     return (
       <div >
@@ -33,6 +30,8 @@ const AllSongs = () => {
       </div>
     );
   }
+
+  console.log(songData);
 
   return songData ? (
 

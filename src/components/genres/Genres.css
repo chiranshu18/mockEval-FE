@@ -1,13 +1,13 @@
 .genre-each-song{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-around; */
+    gap: 10px;
     flex-wrap: wrap;
     padding-top: 30px;
     margin-left: 10vw;
     margin-right: 10vw;
-    /* border: 1px solid; */
-    
+    margin-bottom: 10vh;
 }
 
 .genre-song-card{
@@ -16,17 +16,27 @@
     justify-content: space-between;
     text-align: center;
     background-color: #dfdfdf;
-    /* border: 1px solid; */
     padding: 10px;
-    width: 30%;
+    width: 300px;
     height: 300px;
-    /* margin-left: 5vw; */
-    margin-bottom: 2vh;
+    margin-bottom: 10px;
     border-radius: 30px;
 }
 
+.genre-song-img{
+    height: 150px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+
 .genre-song-name{
-    font-size: 25px;   
+    font-size: 20px;  
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical; 
 }
 
 .genre-details{
