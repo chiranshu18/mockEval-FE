@@ -1,0 +1,21 @@
+.home-text{
+    padding-top: 35vh;
+    text-align: center;
+}
+
+.home-text > p {
+    font-size: 30px;
+}
+
+.sync-button{
+    background-color: #4c63aa;
+    border-radius: 30px;
+    border: 1px solid;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    width: 10%;
+    cursor: pointer;
+}
+
+ 

@@ -1,0 +1,62 @@
+.genre-each-song{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    /* border: 1px solid; */
+    
+}
+
+.genre-song-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #dfdfdf;
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 30%;
+    height: 300px;
+    /* margin-left: 5vw; */
+    margin-bottom: 2vh;
+    border-radius: 30px;
+}
+
+.genre-song-name{
+    font-size: 25px;   
+}
+
+.genre-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.genre-engagement{
+    cursor: pointer;
+}
+
+.genre-title{
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.genre-button{
+    background-color: #4c63aa;
+    border-radius: 30px;
+    border: 1px solid;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px; 
+    width: 15vw;
+    height: 5vh;
+    cursor: pointer;
+}
